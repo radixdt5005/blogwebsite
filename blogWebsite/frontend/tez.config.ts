@@ -2,7 +2,7 @@ import {defineTezConfig } from "@tezjs/vite"
 
 export default defineTezConfig({
     client:{
-        imports:['/@/assets/index.css'],
+        imports:['/@/assets/index.scss'],
         loaderImage:'/images/loader.gif'
     },
     strapi: {
