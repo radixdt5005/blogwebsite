@@ -17,6 +17,9 @@
     },
     "SlotName": {
       "type": "string"
+    },
+    "Title": {
+      "type": "string"
     }
   }
 }

@@ -29,9 +29,10 @@
     "GenericCollections": {
       "type": "dynamiczone",
       "components": [
-        "data-control.get-all-data",
         "components.component-only",
-        "components.dynamic-page-data"
+        "components.dynamic-page-data",
+        "data-control.get-all-data",
+        "components.breadcrumbs"
       ]
     },
     "Seo": {

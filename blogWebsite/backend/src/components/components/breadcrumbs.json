@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_breadcrumbs",
+  "info": {
+    "displayName": "breadcrumbs",
+    "icon": "air-freshener"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::page.page"
+    },
+    "VueReferenceCode": {
+      "type": "string"
+    }
+  }
+}

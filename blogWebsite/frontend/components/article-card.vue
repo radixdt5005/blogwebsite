@@ -3,6 +3,7 @@ defineProps<{ article: any }>();
 </script>
 <template>
   <div class="w-full shadow-lg hover:shadow-2xl transition-all delay-100 ease-in rounded-md px-4 h-full mt-14">
+    {{ article }}
     <div class="card px-4 py-8 flex flex-wrap h-full">
         <div class="h-[300px] overflow-hidden">
           
